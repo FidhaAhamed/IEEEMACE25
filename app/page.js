@@ -1,15 +1,17 @@
-import Navbar from "./Components/Navbar";
-import Hero from "./Pages/Hero";
-import About from "./Pages/About";
-import WhyIEEE from "./Pages/WhyIEEE";
+import Navbar from './Components/Navbar';
+import Hero from './Pages/Hero';
+import About from './Pages/About';
+import WhyIEEE from './Pages/WhyIEEE';
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <WhyIEEE />
+      <main>
+        <Hero />
+        <About />
+        <WhyIEEE />
+      </main>
     </>
   );
 }
